@@ -1,0 +1,13 @@
+
+h1,h2{
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Tangerine', cursive;
+    font-size: 24px;
+}
+
+body {
+  line-height:1.6;
+}
