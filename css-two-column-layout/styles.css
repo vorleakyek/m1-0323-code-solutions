@@ -70,7 +70,7 @@ div.section {
 }
 
 div.column-one-fourth > img {
-  width: 110px;
+  width: 100%;
 }
 
 button {
