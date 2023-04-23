@@ -1,0 +1,95 @@
+body {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+}
+
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-two-third {
+  flex-basis: calc(200% / 3);
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-one-forth {
+  flex-basis: calc(100% / 4);
+}
+
+.column-three-fourth {
+  flex-basis: calc(300% / 4);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+h1.heading {
+  font-weight: 700;
+  text-align: center;
+  font-size: 48px;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.description {
+  font-size: 14px;
+  color: gray;
+  line-height: 1.8;
+}
+
+div.section {
+  margin: 30px 79px 10px 0;
+}
+
+div.column-one-fourth > img {
+  width: 110px;
+}
+
+button {
+  border: 1.5px solid red;
+  background-color: white;
+  color: red;
+  font-weight: 600;
+  padding: 10px 35px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: blanchedalmond;
+  border: 2px solid darkcyan;
+  color: darkcyan;
+}
+
+button:active {
+  background-color: rgb(247 226 193);
+  border: 2px solid darkcyan;
+  color: darkcyan;
+}
