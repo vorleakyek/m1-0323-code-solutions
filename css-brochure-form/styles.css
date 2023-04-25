@@ -1,0 +1,66 @@
+fieldset {
+  width: 500px;
+  border-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+legend {
+  color: red;
+  text-align: center;
+  font: 16px AtlasGrotesk, serif;
+}
+
+input,
+select {
+  width: 600px;
+  height: 36px;
+  border: lightgray 1px solid;
+  margin-top: 5px;
+  margin-bottom: 18px;
+  font-size: 16px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 8px;
+}
+
+select {
+  border-radius: 3px;
+  background-color: #f3f3f3;
+}
+
+input::placeholder {
+  opacity: 0.5;
+}
+
+input:focus,
+select:focus {
+  border: 1px solid gray;
+  outline: none;
+}
+
+button.btn {
+  width: 85px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: #ec5d57;
+  color: whitesmoke;
+  border-style: none;
+  float: right;
+}
+
+label,
+h2.legend-header {
+  text-transform: uppercase;
+}
+
+label {
+  margin-left: 10px;
+}
+
+h2.legend-header {
+  font-weight: 600;
+}
