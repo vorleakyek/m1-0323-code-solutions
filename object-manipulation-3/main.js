@@ -11,16 +11,16 @@ function cardGame(playersNameArr, numCardsPerHand) {
   /** Create a collection of fifty-two objects that represent a standard 52-card deck.
   Each card should have a rank (Ace, 2, 3, ... King) and a suit (clubs, diamonds, hearts, spades).**/
   const cardsDeck = createCardsDeck();
-  console.log(cardsDeck);
+  // console.log(cardsDeck);
 
   // Shuffle the deck.
   const shuffledCardsDeck = _.shuffle(cardsDeck);
-  console.log(shuffledCardsDeck);
+  // console.log(shuffledCardsDeck);
 
   // Deal a number of cards to each player. No two players should be able to receive the same card.
   assignCards(playersArrObj, numCardsPerHand, shuffledCardsDeck);
   addTotalScoretoEachPlayer(playersArrObj, numCardsPerHand, assignScore);
-  // console.log(playersArrObj);
+  console.log(playersArrObj);
 
   /** Find the player with the highest score. Each card is worth a specific point value.
    Aces are worth 11 points, face ranks (Jack, Queen, King) are worth 10 points,
