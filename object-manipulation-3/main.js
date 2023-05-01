@@ -20,7 +20,7 @@ function cardGame(playersNameArr, numCardsPerHand) {
   // Deal a number of cards to each player. No two players should be able to receive the same card.
   assignCards(playersArrObj, numCardsPerHand, shuffledCardsDeck);
   addTotalScoretoEachPlayer(playersArrObj, numCardsPerHand, assignScore);
-  console.log(playersArrObj);
+  // console.log(playersArrObj);
 
   /** Find the player with the highest score. Each card is worth a specific point value.
    Aces are worth 11 points, face ranks (Jack, Queen, King) are worth 10 points,
@@ -73,6 +73,7 @@ function assignCards(playersArrObj, numCardsPerHand, shuffledCardsDeck) {
       _.pull(shuffledCardsDeck, randomCard);
     }
   });
+  // console.log(shuffledCardsDeck);
 }
 
 function addTotalScoretoEachPlayer(playersArrObj, numCardsPerHand, assignScore) {
