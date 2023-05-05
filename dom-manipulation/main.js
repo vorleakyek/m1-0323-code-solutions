@@ -6,7 +6,7 @@ button.addEventListener('click', clickhandler);
 
 function clickhandler(event) {
   numClick++;
-  count.textContent = numClick;
+  count.textContent = 'Clicks: ' + numClick;
 
   if (numClick < 4) {
     button.className = 'hot-button cold';
