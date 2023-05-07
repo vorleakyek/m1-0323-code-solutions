@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.col-full {
+  flex-basis: 10%;
+}
+
+.circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  transition-timing-function: ease-in-out;
+}
+
+.light {
+  background-color: #faea84;
+  box-shadow: 0 0 25px rgb(250 234 132 / 70%);
+}
+
+.dark {
+  background-color: #252525;
+  box-shadow: 0 -17px 0 10px rgb(0 0 0 / 30%);
+}
+
+.bg-light {
+  background-color: #fef9f1;
+}
+
+.bg-dark {
+  background-color: #111;
+}
+
+.delay {
+  background-color: #232223;
+  transition-delay: 1s;
+}
