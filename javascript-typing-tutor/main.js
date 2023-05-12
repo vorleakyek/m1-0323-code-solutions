@@ -23,6 +23,7 @@ function keydownHandler(event) {
     charNodes[indexPosition].className = addClass;
     totalTypedChar++;
 
+
     if (isNextChar === true && indexPosition < charNodes.length - 1) {
       indexPosition++;
       charNodes[indexPosition].classList.add('current');
@@ -52,3 +53,4 @@ function reset(event) {
   charNodes[0].classList.add('current');
   document.addEventListener('keydown', keydownHandler);
 }
+
