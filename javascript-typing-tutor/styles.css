@@ -1,5 +1,5 @@
 .main {
-  min-height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +15,7 @@
 
 h1 span {
   font-size: 28px;
-  display: inline-block;
+  display: inline;
   padding: 0;
   padding-bottom: 2px;
   margin: 0;
@@ -35,3 +35,22 @@ h1 span {
   color: red;
   border-bottom: 2px solid red;
 }
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: rgb(9 150 150);
+  padding: 7px 12px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+p.result {
+  font-size: 20px;
+  color: rgb(228 177 111);
+}
+
