@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-full {
+  flex-basis: 100%;
+}
+
+.col-one-fifth {
+  flex-basis: 20%;
+}
+
+div.section {
+  padding: 0  100px 0 150px;
+}
+
+div.section p {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: start;
+}
+
+span,
+del {
+  color: lightgray;
+  font-weight: 300;
+}
+
+p > span.separator {
+  border-left: 1px solid lightgray;
+  padding-left: 2px;
+}
+
+p > span.price {
+  color: black;
+  font-weight: bold;
+  padding: 2px;
+  background-color: blanchedalmond;
+  border-radius: 3px;
+}
+
+div.img-bg {
+  background-position: left bottom;
+  background-size: contain;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+div.img-1 {
+  background-image: url("images/dress1.jpeg");
+}
+
+div.img-2 {
+  background-image: url("images/ysl-bag.jpeg");
+}
+
+div.img-3 {
+  background-image: url("images/key.jpeg");
+}
+
+div.img-4 {
+  background-image: url("images/lv-bag.jpg");
+}
+
+div.img-5 {
+  background-image: url("images/dress2.jpeg");
+}
