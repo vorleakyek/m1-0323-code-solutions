@@ -1,0 +1,270 @@
+div.container {
+  width: 850px;
+  margin: 0 auto;
+}
+
+header,
+.section-1,
+.section-4 {
+  margin: 0 60px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 0 auto 40px;
+}
+
+.row {
+  display: flex;
+}
+
+h1.title {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: #055ec4;
+  padding-top: 5px;
+  letter-spacing: 1px;
+}
+
+h1,
+ul {
+  margin: 0;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-one-fifth {
+  flex-basis: 20%;
+}
+
+.column-two-fifth {
+  flex-basis: 40%;
+}
+
+.column-three-fifth {
+  flex-basis: 60%;
+}
+
+.column-fourth-fifth {
+  flex-basis: 80%;
+}
+
+.link-btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.link-btn > li {
+  list-style-type: none;
+  margin: 10px;
+  font-size: 11px;
+  padding: 8px;
+}
+
+nav a {
+  color: #a3a3a3;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer .info ul > li {
+  list-style-type: none;
+  text-align: left;
+  margin: 15px 15px 15px 0;
+}
+
+header .link-btn > li:last-child {
+  background-color: #294464;
+  border-radius: 3px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.white {
+  color: white;
+}
+
+.section-1 {
+  color: white;
+  position: relative;
+  padding: 25px 35px 50px 50px;
+  height: 355px;
+  background-image: url("images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-1 h2 {
+  font-size: 28px;
+  font-weight: normal;
+  position: absolute;
+  top: 25px;
+  width: 50%;
+}
+
+.section-1 p {
+  font-size: 12px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  position: absolute;
+  top: 110px;
+  width: 53%;
+}
+
+.section-1 button {
+  position: absolute;
+  bottom: 50px;
+}
+
+.overlay {
+  background: rgb(0 0 0 / 15%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.btn {
+  background-color: #294464;
+  color: white;
+  padding: 10px 35px;
+  border-style: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.section-2,
+.section-3 {
+  background-color: #fafafa;
+  color: #808080;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-family: Avenir, sans-serif;
+  text-align: center;
+}
+
+.section-2 {
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.section-2 h2 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  letter-spacing: -1px;
+  font-size: 20px;
+  color: rgb(85 85 85);
+}
+
+.section-2 p {
+  font-size: 11px;
+}
+
+.section-3 {
+  justify-content: space-around;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #eee;
+}
+
+.section-3 p {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.section-4 {
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.section-4 h2 {
+  color: #808080;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.section-4 p {
+  margin-top: 12px;
+  margin-bottom: 25px;
+  font-size: 12px;
+  font-family: Avenir, sans-serif;
+  color: gray;
+}
+
+footer {
+  font-family: Avenir, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+footer .info {
+  background-color: #525351;
+  color: white;
+  justify-content: space-around;
+  padding: 60px 50px 80px 0;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.second-column {
+  margin-left: 100px;
+}
+
+.info h3 {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.info h3.name {
+  font-family: "Tiempos Headline", sans-serif;
+  font-size: 36px;
+  margin-top: -10px;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+.info .address {
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.footer-link-bottom {
+  padding: 45px 60px;
+  background-color: #fafafa;
+}
+
+.footer-link-bottom a {
+  color: gray;
+  margin-right: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
